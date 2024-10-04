@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    background-color:#c4c6e7;
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+.whole{
+    background-image: url("https://w0.peakpx.com/wallpaper/553/925/HD-wallpaper-money-collage-country.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+.coll{
+    background-color: grey;
+    position: relative;
+}
+.form{
+    text-align: center;
+}
+.divide{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h{
+    color: rgb(225, 77, 8);
+    font-size: 40px;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    padding : 20px
+}
+.hidden{
+    display: none;
+}
+.box{
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgb(8, 176, 81);
+    width: 150px;
+}
+.bo{
+  
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.va{
+    font-size: 25px;
+   pointer-events: none;
+   
+}
+@media only screen and (max-width : 760px)
+{
+   .divide{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+   } 
+}
+@media only screen and (max-height : 930px)  {
+    .divide{
+        padding: 0px;
+        margin: 0px;
+    }
+}                                                              
